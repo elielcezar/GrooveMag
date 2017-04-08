@@ -7,25 +7,30 @@ Version:        1.0
 */
 html, body {
   height: 100%; }
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans',sans-serif;
   font-weight: 300; }
+
 a {
   color: #cd1820; }
   a:hover {
     color: #333; }
+
 h1, h2, h3, h4, h5 {
   margin: 0;
   text-transform: uppercase;
   font-family: 'Brandon Bold', sans-serif; }
+
 a.btn {
   color: #fff;
   background: #ccc; }
   a.btn:hover {
     background: #cd1820;
     color: #fff; }
+
 @font-face {
   font-family: 'Brandon Black';
   src: url("fonts/BrandonGrotesque-Black.eot");
@@ -67,20 +72,26 @@ a.btn {
   text-align: center; }
   .modal p {
     margin: 25px 0 0 0; }
+
 .modal-header {
   background: #cd1820; }
+
 .modal-header h2 {
   color: #fff; }
+
 .modal-body .links {
   display: none; }
+
 .modal form {
   padding: 25px 50px; }
+
 form {
   font-size: 16px;
   text-align: left; }
   form input,
   form textarea {
     font-weight: 600; }
+
 input[type="text"],
 input[type="email"] {
   -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.075);
@@ -101,6 +112,7 @@ input[type="email"] {
   -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
+
 textarea {
   -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.075);
@@ -119,17 +131,22 @@ textarea {
   -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
+
 form label {
   margin: 7px 0 0 7px;
   color: #666; }
+
 form .form-item {
   font-weight: normal;
   margin-bottom: 15px; }
+
 .form-control {
   border-color: #999; }
+
 button {
   text-transform: uppercase;
   font-size: 21px; }
+
 button,
 button.btn,
 a.btn,
@@ -164,6 +181,7 @@ form input[type="submit"] {
   button.btn-primary span,
   form input[type="submit"] span {
     margin-right: 7px; }
+
 button:hover,
 button.btn:hover,
 a.btn:hover,
@@ -180,12 +198,14 @@ form input[type="submit"]:hover {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   outline: 0 !important; }
+
 /* PAGINACAO */
 .wp-pagenavi {
   float: left;
   width: 100%;
   margin: 50px 0;
   text-align: center; }
+
 /* listagemn de noticias: Home, Categorias, etc */
 /*.noticias .row{
 	margin-bottom: 25px;
@@ -309,10 +329,12 @@ header {
       display: block !important;
       opacity: 1;
       z-index: 50; }
+
 /*-- PRINCIPAL ----------------------------------------------------------*/
 .principal {
   float: left;
   width: 100%; }
+
 /* --- HOME ----------------------------------------------------------------*/
 .home {
   /* DESTAQUE */
@@ -539,6 +561,7 @@ header {
       background: transparent !important; }
   .home .popular-posts {
     display: none; }
+
 @media (min-width: 1200px) {
   .destaque .conteudo {
     padding: 50px 20px;
@@ -579,6 +602,7 @@ header {
   .page-template-noticias .principal .intro img,
   .category .principal .intro img {
     display: none; }
+
 /* --- LISTA CATEGORIAS ---------------------------------------------------------------------*/
 /*
 .category{
@@ -757,6 +781,7 @@ header {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
+
 /*--- GROOVE TV ------------------------------------------------------------*/
 .page-id-1246 .principal h1,
 .page-id-1284
@@ -766,6 +791,7 @@ header {
 .page-id-1284
 .page-id-1286 .principal .sidebar {
   margin-top: 50px; }
+
 /* CANAIS */
 .page-template-canal-mega .principal h1,
 .page-template-beat-a-beat .principal h1,
@@ -822,13 +848,16 @@ header {
     .page-template-the-groove .principal .mais-videos h4 a:hover,
     .page-template-interview .principal .mais-videos h4 a:hover {
       color: #fff; }
+
 .page-template-interview .mais-videos p {
   display: none; }
+
 /*--- CONTATO --------------------------------------------------------------*/
 .page-id-1055 .principal {
   margin-top: 50px;
   float: left;
   width: 100%; }
+
 /* --- SIDEBAR ----------------------------------------------------------------*/
 .sidebar {
   /* groove tv */
@@ -902,6 +931,7 @@ header {
       font-size: 14px;
       letter-spacing: -1px;
       display: block; }
+
 /* --- RODAPE ----------------------------------------------------------------*/
 footer {
   background: #333;
@@ -979,10 +1009,12 @@ footer {
       background: transparent url(img/icon-youtube.png) center center no-repeat; }
     footer ul.social li.soundcloud a {
       background: transparent url(img/icon-soundcloud.png) center center no-repeat; }
+
 .devel {
   background: #333;
   text-align: center;
   padding: 20px 0; }
+
 /*-----------------------------------------------------------------------------*/
 @media (max-width: 420px) {
   header {
@@ -1006,19 +1038,23 @@ footer {
         width: 100%; }
       header .busca .widget_search input[type="text"] {
         width: 100%; }
+
   .navbar {
     text-align: center;
     margin-bottom: 15px; }
     .navbar h5, .navbar li {
       width: 100%; }
+
   .home .destaque {
     overflow: visible; }
+
   /* pagina de um post individual */
   .single-post h2 {
     margin: 25px 0 0 0;
     font-size: 24px; }
   .single-post .conteudo {
     margin-top: 25px; }
+
   footer {
     text-align: center; } }
 @media (min-width: 600px) and (max-width: 768px) {
@@ -1027,11 +1063,13 @@ footer {
 @media (min-width: 768px) and (max-width: 899px) {
   .category .navbar {
     margin-bottom: 25px; }
+
   /* pagina de um post individual */
   .single-post h2 {
     margin: 25px 0 0 0; }
   .single-post .conteudo {
     margin-top: 25px; }
+
   /* sidebar */
   .sidebar .widget_polls-widget {
     width: 49%;
@@ -1054,6 +1092,7 @@ footer {
     position: absolute;
     bottom: 8px;
     left: 125px; }
+
   .noticias .row .col-sm-7 {
     height: 216px !important; }
   .noticias .row .leia-mais {
@@ -1070,6 +1109,7 @@ footer {
   color: #fff;
   padding: 50px 0;
   margin-bottom: 0; }
+
 /*********************************************************/
 @media (max-width: 767px) {
   header {
@@ -1163,9 +1203,25 @@ footer {
       opacity: 1; }
     header .banner {
       display: none; }
+
   /*--- HOME -------------------------------------------*/
+  .home header {
+    margin-bottom: 0; }
   .home .destaque {
-    display: none; }
+    margin-bottom: 20px;
+    height: auto; }
+    .home .destaque .item {
+      height: 240px; }
+      .home .destaque .item a {
+        height: 240px; }
+      .home .destaque .item .conteudo {
+        top: 30%; }
+        .home .destaque .item .conteudo h2 {
+          font-size: 24px;
+          line-height: 24px; }
+      .home .destaque .item div.imagem {
+        height: 240px !important;
+        background-size: cover; }
   .home .noticias .item,
   .home .features .item,
   .home .reviews .item {
@@ -1179,4 +1235,5 @@ footer {
   .home .radioshow .item-tv,
   .home .groovetv .item-tv {
     margin-bottom: 25px; } }
+
 /*# sourceMappingURL=style.css.map */

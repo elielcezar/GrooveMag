@@ -1322,7 +1322,30 @@ footer{
 	}
 	/*--- HOME -------------------------------------------*/
 	.home{
-		.destaque{display: none;}
+		header{margin-bottom: 0;}
+		.destaque{
+			margin-bottom: 20px;
+			height: auto;
+
+			.item{	
+				height: 240px;					
+				a{
+					height: 240px;               	
+				}				
+				.conteudo{
+					top: 30%;
+					h2{
+						font-size: 24px;
+						line-height: 24px;					
+					}
+				}
+				div.imagem{
+					height: 240px !important;
+					background-size: cover;
+				}
+			}			
+		}
+		
 		.noticias, 
 		.features,
 		.reviews{
