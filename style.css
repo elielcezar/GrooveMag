@@ -31,6 +31,9 @@ a.btn {
     background: #cd1820;
     color: #fff; }
 
+img.img-responsive {
+  margin: auto !important; }
+
 @font-face {
   font-family: 'Brandon Black';
   src: url("fonts/BrandonGrotesque-Black.eot");
@@ -206,71 +209,6 @@ form input[type="submit"]:hover {
   margin: 50px 0;
   text-align: center; }
 
-/* listagemn de noticias: Home, Categorias, etc */
-/*.noticias .row{
-	margin-bottom: 25px;
-	position: relative;
-	h2{
-		font-size: 18px;
-		line-height: 21px;
-		margin: 10px 0 5px 0;
-	}
-	.col-sm-7{display: block;}
-	.extras{margin-bottom: 5px;}
-	h2 a{font-weight: normal;}
-	.chamada{font-size: 16px;}
-	.leia-mais{float: left;}
-	.compartilhe a{
-		display: inline-block;
-		text-transform: uppercase;
-		color: #808080;
-		float: left;
-		font-size: 12px;
-		margin: 10px 0 0 20px;
-		padding-right: 20px;
-		background: transparent url(img/icon_facebook.png) center right no-repeat;
-	}
-	.fb_iframe_widget{
-			
-			position: absolute;
-			bottom: 5px;
-			left: 250px;
-		}
-	
-}*/
-/* categorias e busca */
-/*.navbar{
-	
-	text-transform: uppercase;
-	margin-bottom: -10px;
-	.widget_nav_menu{
-		float: left;
-		width: 100%;
-		h5{
-			font-family: 'Brandon Light', sans-serif;
-			float: left;
-			padding: 8px 0;
-			margin-right: 15px;
-		}
-		ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			li{
-				display: inline-block;
-				padding: 5px 1%;
-				margin: 0 .5%;
-				&:hover{background: #f5f5f5;}
-			}
-			a{
-				color: #666;
-				font-size: 14px;
-				font-family: 'Brandon Black', sans-serif;
-			}
-		}
-	}	
-	
-}*/
 /* --- TOPO ----------------------------------------------------------------*/
 header {
   background: #000;
@@ -639,7 +577,9 @@ header {
   .single-post .conteudo img,
   .single-post .conteudo img.wp-caption {
     max-width: 100% !important;
-    height: auto !important; }
+    height: auto !important;
+    margin: auto !important;
+    display: inherit; }
   .single-post .conteudo img.aligncenter {
     margin-left: auto;
     margin-right: auto; }
@@ -650,6 +590,8 @@ header {
     font-style: italic;
     padding: 10px 0;
     width: 99%; }
+  .single-post .conteudo p {
+    text-align: justify; }
 .single-post .ssba-wrap {
   margin-bottom: 20px; }
   .single-post .ssba-wrap a {
@@ -1235,5 +1177,11 @@ footer {
   .home .radioshow .item-tv,
   .home .groovetv .item-tv {
     margin-bottom: 25px; } }
+@media (max-width: 1120px) {
+  header #menu-menu-principal li a {
+    padding: 0 15px; } }
+@media (max-width: 960px) {
+  header #menu-menu-principal li a {
+    padding: 0 8px; } }
 
 /*# sourceMappingURL=style.css.map */
